@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*设计师中心*/
+.review_nav{ width:100%; border:1px solid #ebebeb; border-bottom:2px solid #ff6600; padding:15px;}
+.review{}
+.review img{ width:50px; height:50px; border-radius:50px;}
+.delete_xz{ width:82px; height:28px; line-height:28px; float:right; background:url(../images/scbj.jpg); border:1px solid #ccc;}
+
+
+/*工人中心*/
+.workers{ padding:10px 20px 20px 20px; background:#f8f8f8; border-top:2px solid #ff6600; line-height:32px; color:#999;}
+.workers h3{ border-bottom:1px solid #ff6600; width:85px; font-weight:normal; margin-bottom:10px; color:#333;}
+.master_r_bottom_t{ padding:15px 56px 20px 188px;}
+.master_r_bottom_s{ padding:15px 56px 20px 56px;}
+.master_r_bottom_f{ padding:15px 0 20px 56px;}
+.evaluation{ width:46px; height:22px; line-height:22px; margin:0 auto; background:#ff6600;}
+.evaluation a{ color:#FFF;}
+
+
+/*工人_我的优惠券*/
+.coupons{ background:#f8f8f8; padding:10px 20px; line-height:32px; color:#999;}
+.coupons_t{ border-top:none; text-align:center; padding:15px 0;}
+.coupons_o,.use_coupons,.expired_coupons{overflow:hidden; border:1px solid #d8d8d8;}
+.coupons_o_l,.use_coupons_l{ width:165px; height:140px; background:#ff4800 url(../images/ttg.jpg) no-repeat right; line-height:140px; text-align:center; color:#fff; font-size:34px; font-weight:bold;}
+.coupons_o_c{ padding:10px 30px; line-height:24px; font-family:"宋体"; font-size:12px;}
+.coupons_o_c strong{ font-family:"微软雅黑";}
+.coupons_o_r{ margin:22px 22px 0 22px; border-left:1px dashed #d8d8d8; float:right; height:96px; line-height:26px; padding:10px 20px 0 44px;}
+.coupons_o_r img{ padding-right:6px; margin-bottom:-6px;}
+.use_coupons{ background:url(../images/.use_coupons.jpg) no-repeat 520px 8px;}
+.use_coupons_l{ background:#999 url(../images/use_coupons_l.jpg) no-repeat right;}
+.expired_coupons{ background:url(../images/_coupons.jpg) no-repeat 520px 8px;}
+
+
+/*工人_我的团购*/
+.bulk{ width:850px; background:#FFF; border:5px solid #e5e5e5; padding:25px 12px; *padding:25px 12px 0 12px;}
+.bulk img{ width:286px; height:210px; float:left;}
+.bulk_r_r{ width:875px;}
+.bulk_r{ float:left; margin-left:30px; line-height:22px; *height:210px;}
+.bulk_r h3 a{ color:#fc4027; font-size:20px;}
+.bulk_r_t{ padding:4px 8px; background:#fc4027; color:#fff; font-size:12px; margin-top:5px;}
+.bulk_r_d{ width:145px; height:40px; line-height:40px; text-align:center; background:#fc4027; float:left;}
+.bulk_r_d a{ color:#fff;}
+.bulk .bulk_r_d img{ width:14px; height:14px; float:none; margin-bottom:-2px; margin-left:6px;}
+
+.bulk_popup{ width:839px; height:500px; margin:0 auto; background:#fde9ce;}
+.bulk_popup_t{ width:100%; height:80px; background:#fc4027 url(../images/bade.jpg) no-repeat bottom; text-align:center; color:#fff; line-height:40px; padding:30px 0 40px 0;}
+.bulk_popup_yx{ width:28px; height:28px; border-radius:28px; background:#FFF; color:#fc4027;}
+.bulk_popup_c{ width:402px; margin:0 auto;  margin-top:15px;}
+.bulk_popup_c input,.input_o,.input_t{ width:353px; height:36px; line-height:36px; border:1px solid #cfcfcf; background:#fff url(../images/rs.png) no-repeat 10px 10px; padding-left:35px; font-family:"微软雅黑"; color:#666; margin-top:20px;}
+.bulk_popup_c .input_o{ background:#fff url(../images/sj.png) no-repeat 10px 10px;}
+.bulk_popup_c .input_t{ background:#fff url(../images/dh.jpg) no-repeat 10px 10px;}
+.bulk_popup_but{ width:216px; height:38px; line-height:38px; background:#fc4027; margin:0 auto; text-align:center; margin-top:40px; border-radius:8px;}
+.bulk_popup_but a{ color:#fff; font-size:16px; font-weight:bold;}
+
+
+/*工人_认证手机*/
+.phone{ width:100%; height:40px; background:#f5f5f5; line-height:40px; color:#FFF;}
+.phone_l,.phone_l_2,.phone_l_3{ float:left; width:120px; height:40px; padding-left:35px; background:url(../images/sj.jpg) no-repeat}
+.phone_c,.phone_r,.phone_r_o{ float:left; width:144px; height:40px; background:url(../images/zxsd.jpg) no-repeat; padding-left:62px; margin-left:6px;}
+.phone_r{ background:url(../images/ted.jpg) no-repeat; padding-left:62px; margin-left:6px;}
+.phone_l_2{ background:url(../images/jdnx.jpg) no-repeat;}
+.phone_l_3{ background:url(../images/get.jpg) no-repeat;}
+.phone_r_o{ background:url(../images/jdn.jpg) no-repeat;}
+.phone_but{ background:url(../images/bjtt.jpg); color:#fff; margin-left:10px;}
+
+
+/*工人_更换头像*/
+.replace_border{float:left; height:1px; background:#d6d6d6; margin-left:60px;width:450px; }
+.replace_border_o{ margin-left:182px; margin-top:12px;}
+.replace_img{ width:450px; height:111px; background:url(../images/ghtxt.jpg); float:left; margin-top:10px; margin-left:60px; text-align:center; padding:58px 0;}
+.m-t-60{ margin-top:60px;}
+.replace_fh{ width:450px; margin-top:12px; overflow:hidden; margin-left:182px;}
+.replace_fh img{ float:left;}
+.evaluation_o{padding:30px; background:#fafafa; margin-top:20px;}
+.evaluation_o img{ padding:0 2px;}
+.evaluation_kt{ border-left:1px solid #e5e5e5; padding:0 100px;}
+
+.xdp{}
+.xdp li { padding:10px 0; line-height:24px;}
+.xdp label { display:inline-block;  width:90px; text-align:left; font-size:16px;}
+.xdp input{ width:560px; height:34px; line-height:34px; font-size:14px; padding-left:8px; border:1px #dfdfdf solid; font-family:"微软雅黑";}
+.xdp textarea{ width:558px; height:130px; font-size:12px; padding-top:5px; border:1px solid #d8d8d8; line-height:20px; font-family:"微软雅黑"; color:#999; padding-left:10px;}
+.xdp .subBtn1 { width:100px; height:40px; text-align:center; font-family:"微软雅黑"; color:#fff; background:#fc4027; cursor:pointer; padding-left:0;}
+.yxbq_l{ width:72px; height:72px; border:2px solid #ededed; display:inline-block; margin-right:10px;}
+.yxbq_l img{ width:72px; height:72px;}
+.yxbq_r{ border:2px dashed #cfcfcf; width:72px; height:72px; display:inline-block;}
+.yxbq{ width:94px; height:26px; margin-right:10px; line-height:26px; text-align:center; border:1px solid #e3e3e3; display:inline-block;}
+.yxbq a{ color:#333;}
+.yxbq:hover{ border:1px solid #fc4027;}
+
+
+/*社区团装_地图找小区*/
+.dt_xq{ width:1200px; margin:0 auto;}
+.dt_xq_t{ width:1160px; height:40px; background:#f2f2f2; padding:10px 20px;}
+.dt_xq_t select{ width:540px; height:40px; background:#FFF; border:1px solid #e6e6e6; font-size:16px; color:#999; font-family:"微软雅黑"; padding-left:10px;}
+.dt_xq_t option{ padding-left:10px;}
+.dt_xq_t .button{ width:170px; height:40px; font-size:16px; margin-left:10px; cursor:pointer; line-height:40px; background:#ff6600; color:#fff;}
+.dt_xq_d{ padding:0 8px 8px 24px; background:#fff; overflow:hidden;}
+.dt_xq_d_l{ width:300px; margin-top:30px;}
+.dt_xq_d_l img{ float:left;}
+.color_447edd{ color:#447edd;}
+
+
+
+
+

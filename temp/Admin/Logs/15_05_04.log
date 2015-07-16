@@ -1,0 +1,339 @@
+[ 2015-05-04T18:00:20+08:00 ] 127.0.0.1 /tangliang/manager.php/Member/foreman.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003869s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.003667s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003481s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Member' ) LIMIT 1   [ RunTime:0.002825s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003824s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=3 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.003282s ]
+SQL: SHOW COLUMNS FROM `t_foremanview` [ RunTime:0.005431s ]
+NOTIC: [8] Undefined index:  keys E:\wamp\www\tangliang\Admin\Lib\Action\MemberAction.class.php 第 372 行.
+NOTIC: [8] Undefined index:  start_date E:\wamp\www\tangliang\Admin\Lib\Action\MemberAction.class.php 第 376 行.
+NOTIC: [8] Undefined index:  end_date E:\wamp\www\tangliang\Admin\Lib\Action\MemberAction.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `t_role` [ RunTime:0.003364s ]
+SQL: SELECT * FROM `t_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002960s ]
+SQL: SHOW COLUMNS FROM `t_city` [ RunTime:0.003298s ]
+ERR: 1146:Table 'tangliangdbs.t_city' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_city`
+NOTIC: [8] Undefined index:  qu E:\wamp\www\tangliang\Admin\Lib\Action\MemberAction.class.php 第 392 行.
+NOTIC: [8] Undefined index:  province E:\wamp\www\tangliang\Admin\Lib\Action\MemberAction.class.php 第 395 行.
+NOTIC: [8] Undefined index:  city E:\wamp\www\tangliang\Admin\Lib\Action\MemberAction.class.php 第 396 行.
+SQL: SHOW COLUMNS FROM `t_area` [ RunTime:0.003320s ]
+SQL: SELECT * FROM `t_area` WHERE ( parent_id=1 )  [ RunTime:0.003278s ]
+SQL: SELECT `region_name` FROM `t_area` WHERE ( region_id= and agency_id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and agency_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `region_name` FROM `t_area` WHERE ( region_id= and agency_id=1 ) LIMIT 1  
+SQL: SELECT `region_name` FROM `t_area` WHERE ( region_id= and agency_id=1 ) LIMIT 1   [ RunTime:0.002646s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and agency_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `region_name` FROM `t_area` WHERE ( region_id= and agency_id=1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `t_foremanview` WHERE ( 1 ) ORDER BY a_id desc LIMIT 1   [ RunTime:0.002874s ]
+SQL: SELECT * FROM `t_foremanview` WHERE ( 1 ) ORDER BY a_id desc  [ RunTime:0.004657s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 140 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 173 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 221 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 221 行.
+NOTIC: [8] Undefined variable: year E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 454 行.
+NOTIC: [8] Undefined variable: month E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 461 行.
+NOTIC: [8] Undefined variable: day E:\wamp\www\tangliang\temp\Admin\Cache\5f361a72f4b2c4b13e851e65a6597789.php 第 468 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064561s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003653s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002025s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001463s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009855s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002615s ]
+
+[ 2015-05-04T18:00:23+08:00 ] 127.0.0.1 /tangliang/manager.php/Member/addgz.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.009348s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.007421s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003542s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Member' ) LIMIT 1   [ RunTime:0.003116s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003575s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=3 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.003398s ]
+SQL: SHOW COLUMNS FROM `t_city` [ RunTime:0.003121s ]
+ERR: 1146:Table 'tangliangdbs.t_city' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_city`
+SQL: SHOW COLUMNS FROM `t_role` [ RunTime:0.003545s ]
+SQL: SELECT * FROM `t_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.005365s ]
+SQL: SHOW COLUMNS FROM `t_area` [ RunTime:0.003738s ]
+SQL: SELECT * FROM `t_area` WHERE ( parent_id=1 )  [ RunTime:0.003705s ]
+SQL: SELECT * FROM `t_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 167 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 221 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 221 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 221 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 221 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 239 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 244 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 244 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 245 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 245 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 259 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 276 行.
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 303 行.
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 304 行.
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 305 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 314 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 320 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 326 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 333 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 339 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 345 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 351 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 357 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 363 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 369 行.
+NOTIC: [8] Undefined variable: fuwuarr E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 376 行.
+NOTIC: [8] Use of undefined constant fuwu - assumed 'fuwu' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 378 行.
+NOTIC: [8] Use of undefined constant is_sfz - assumed 'is_sfz' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 395 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 395 行.
+NOTIC: [8] Use of undefined constant is_sfz - assumed 'is_sfz' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 396 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 396 行.
+NOTIC: [8] Use of undefined constant is_qy - assumed 'is_qy' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 402 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 402 行.
+NOTIC: [8] Use of undefined constant is_qy - assumed 'is_qy' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 403 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 403 行.
+NOTIC: [8] Use of undefined constant qytime - assumed 'qytime' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 409 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 409 行.
+NOTIC: [8] Use of undefined constant is_bzj - assumed 'is_bzj' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 415 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 415 行.
+NOTIC: [8] Use of undefined constant is_bzj - assumed 'is_bzj' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 416 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 416 行.
+NOTIC: [8] Use of undefined constant sfz_img - assumed 'sfz_img' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 423 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 430 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 437 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 441 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 448 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 448 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 449 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 449 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 456 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 456 行.
+NOTIC: [8] Use of undefined constant gongling - assumed 'gongling' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 460 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 460 行.
+NOTIC: [8] Use of undefined constant is_tj - assumed 'is_tj' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 465 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 465 行.
+NOTIC: [8] Use of undefined constant is_tj - assumed 'is_tj' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 466 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 466 行.
+NOTIC: [8] Use of undefined constant dhimg - assumed 'dhimg' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 473 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 479 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 479 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant p_id - assumed 'p_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 487 行.
+NOTIC: [8] Use of undefined constant c_id - assumed 'c_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 491 行.
+NOTIC: [8] Use of undefined constant q_id - assumed 'q_id' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 495 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 520 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 520 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 525 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 526 行.
+NOTIC: [8] Use of undefined constant jingdu - assumed 'jingdu' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 533 行.
+NOTIC: [8] Use of undefined constant jingdu - assumed 'jingdu' E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 549 行.
+NOTIC: [8] Undefined variable: info E:\wamp\www\tangliang\temp\Admin\Cache\96661f706dcb104ff7e1e58e418edc65.php 第 578 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.090145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090347s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001816s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006489s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001561s ]
+

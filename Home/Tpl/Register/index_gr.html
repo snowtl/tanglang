@@ -1,0 +1,234 @@
+<include file="Common:m_head" />
+ <div class="login">
+   <div class="m-t-28"><img src="__PUBLIC__/web/images/logo.jpg" /></div>
+   <div class="register">注册通行证</div>
+	 <div class="register_c">
+	   <div class="register_l register_l_k">
+			<form action="{:U('Register/r_do')}" method="POST">
+			<input type="hidden" value="{$type}" name="info[a_type]" />
+        	<ul>
+            	<li class="color_999"><label><span class="color_f">*</span>用户身份：</label>
+					<span class="l"><a href="{:U('Register/index',array('type'=>1))}">普通</a>&nbsp;&nbsp;</span>
+					<span class="l"><a href="{:U('Register/index',array('type'=>2))}">工长</a>&nbsp;&nbsp;</span>
+					<span class="l"><a href="{:U('Register/index',array('type'=>3))}">材料商</a>&nbsp;&nbsp;</span>
+					<span class="l"><a href="{:U('Register/index',array('type'=>4))}">设计师</a>&nbsp;&nbsp;</span>
+					<span class="l"><a href="{:U('Register/index',array('type'=>5))}">工人</a></span>
+				</li>
+					
+				<li class="register_l_l"><b>帐户信息</b></li>
+					<li>
+						<label><span class="color_f">*</span>用户名：</label>
+						<input type="text" value="" name="info[a_name]" id="name"/>
+						<div class="register_l_t_k" id="tname" style="display:none;"></div>
+					</li>
+					<li>
+						<label><span class="color_f">*</span>请设置密码：</label>
+						<input type="password" value="" name="info[a_pwd]" id="password"/>
+						<div class="register_l_t_k" id="tpassword" style="display:none;"></div>
+					</li>
+								
+					<li>
+						<label><span class="color_f">*</span>请确认密码：</label>
+						<input type="password" value="" name="" id="repassword"/>
+						<div class="register_l_t" id="trepassword" style="display:none;"></div>
+					</li>
+					
+					
+					<li class="register_l_l"><b>联系方式</b></li>
+					<li>
+						<label><span class="color_f">*</span>真实姓名：</label>
+						<input type="text" value="" class="input1" name="infos[truename]" id="truename"/>
+						<input name="" type="radio" value="1"  class="checkbox m-l-22" name="infos[sex]"/><span class="l">先生</span>
+						<input name="" type="radio" value="0"  class="checkbox m-l-22" name="infos[sex]"/><span class="l">女士</span>
+						<div class="register_l_t_k_t" style="margin-left:20px; display:none;" id="ttruename"></div>
+					</li>
+					<li>
+						<label><span class="color_f">*</span>所在地区：</label>
+						<select name="infos[q_id]">
+							<option>请选择</option>
+							<volist id="vo" name="area">
+								<option value="{$vo.region_id}">{$vo.region_name}</option>
+							</volist>
+						</select>
+					</li>
+					<li>
+						<label>电子邮箱：</label>
+						<input type="text" value="" name="infos[email]" id="email"/>
+						<div class="register_l_t_k" style="display:none;" id="temail"></div>
+					</li>
+					<li>
+						<label><span class="color_f">*</span>手机号码：</label>
+						<input type="text" value="" name="infos[movphone]" id="tel"/>
+						<div class="register_l_t_k" id="ttel" style="display:none;"></div>
+					</li>
+					<!--<li>
+						<label><span class="color_f">*</span>手机验证码：</label>
+						<input type="text" value=""  class="input1"/>
+						<input name="" type="button" class="subBtn1 subBtn3" value="获取短信验证码" />
+						<div class="register_l_t">请输入正确验证码</div>
+					</li>-->				
+							
+							
+							
+							
+				<li class="register_l_l"><b>工作简介</b></li>
+				
+				<li>
+					<label><span class="color_f">*</span>工龄：</label>
+					<input type="text" value="" name="infos[gongling]" id="gongling"/>
+					<div class="register_l_t_k_t" id="tgongling" style="display:none;"></div>
+				</li>
+				
+				<li>
+					<label><span class="color_f">*</span>个人简介：</label>
+					<textarea  name="infos[content]" id="content" style="width: 303px; height: 118px;"></textarea>
+					<div class="register_l_t" id="tcontent" style="display:none;"></div>
+				</li>
+				
+				<li>
+					<label><span class="color_f">*</span>入职日期：</label>
+					<input type="text" value="" class="input2" name="infos[ruzhitime]" id="ruzhitime"/>
+				</li>
+							
+            	<li>
+					<label></label>
+					<input name="" type="checkbox" value="" class="checkbox" style="margin-left:150px; *margin-left:0px;" id="agree" onclick="isaccepted();"/>
+					<span class="m-l-5 font-12">我同意<a href="">《唐亮工长俱乐部服务协议》</a></span>
+				</li>
+			
+				<li>
+					<label></label>
+					<input type="submit" value="立即开通" class="subBtn2" style="margin-left:150px; *margin-left:0px;" id="submit" disabled="disabled"/>
+				</li>
+            </ul>
+			</form>
+        </div>
+		<script>
+			$("document").ready(function(){
+				//手机号码
+				$("#tel").blur(function(){
+					var tel = $("#tel").val();
+					var reg = /^(((13[0-9]{1})|(15[0-9]{1}))+\d{8})$/;
+					if(tel == "")
+					{
+					
+						$("#ttel").css("display","block");
+						$("#ttel").html("请填写手机号码");
+						return false;
+					}
+					if(!reg.test(tel))
+					{
+						$("#ttel").css("display","block");
+						$("#ttel").html("请输入正确的手机号码");
+						return false;
+					}
+				});
+				//用户名
+				$("#name").blur(function(){
+					var name = $("#name").val();
+					if(name == "")
+					{
+						$("#tname").css("display","block");
+						$("#tname").html("不能为空;可输入4-20位字符，数字，英文，下划线或组合");
+						return false;	
+					}
+				});
+				//密码
+				$("#password").blur(function(){
+					var pwd = $("#password").val();
+					if(pwd == "")
+					{
+						$("#tpassword").css("display","block");
+						$("#tpassword").html("密码不能为空");
+						return false;	
+					}
+					if(pwd.length < 6)
+					{
+						$("#tpassword").css("display","block");
+						$("#tpassword").html("密码长度不能小于6位");
+						return false;
+					}
+				});
+				//重复密码
+				$("#repassword").blur(function(){
+					var pwd = $("#password").val();
+					var rpwd = $("#repassword").val();
+					if(rpwd == "")
+					{
+						$("#trepassword").css("display","block");
+						$("#trepassword").html("请填写重复密码");
+						return false;	
+					}
+					if(rpwd!= pwd)
+					{
+						$("#trepassword").css("display","block");
+						$("#trepassword").html("密码不一致");
+						return false;
+					}else{
+						$("#trepassword").css("display","none");
+						return false;
+					}
+				});
+				//邮箱
+				$("#email").blur(function(){
+					var email = $("#email").val();
+					var reg = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+					if(email == "")
+					{
+					
+						$("#temail").css("display","block");
+						$("#temail").html("请填写邮箱");
+						return false;
+					}
+					if(!reg.test(email))
+					{
+						$("#temail").css("display","block");
+						$("#temail").html("请输入正确的邮箱");
+						return false;
+					}
+				});
+				//真实姓名
+				$("#truename").blur(function(){
+					var truename = $("#truename").val();
+					if(truename == "")
+					{
+					
+						$("#ttruename").css("display","block");
+						$("#ttruename").html("请填写您的姓名");
+						return false;
+					}
+				});
+				//工龄
+				$("#gongling").blur(function(){
+					var gongling = $("#gongling").val();
+					if(gongling == "")
+					{
+					
+						$("#tgongling").css("display","block");
+						$("#tgongling").html("请填写您的工龄");
+						return false;
+					}
+				});
+				//简介
+				$("#content").blur(function(){
+					var content = $("#content").val();
+					if(content == "")
+					{
+					
+						$("#tcontent").css("display","block");
+						$("#tcontent").html("请填写您的简介");
+						return false;
+					}
+				});
+				
+			});
+			function isaccepted()
+			{  
+				if(document.getElementById("agree").checked==true){  
+					document.getElementById("submit").disabled = false;  
+				}else{  
+					document.getElementById("submit").disabled = true;  
+				}  
+			};
+		</script>
+<include file="Common:m_foot" />

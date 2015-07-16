@@ -1,0 +1,46 @@
+<include file="Common:m_head" />
+ <div class="login">
+   <div class="m-t-28"><img src="__PUBLIC__/web/images/logo.jpg" /></div>
+	 <div class="login_o"><img src="__PUBLIC__/web/images/login.jpg" /><br /><a href="">明星工长</a><a href="">团购活动</a><a href="">团购商家</a><a href="">设计师团队</a><a href="">效果图</a><a href="">社区团装</a><a href="">装修攻略</a><a href="">论坛</a></div>
+	 <form action="{:U('Login/login')}" method="POST">
+	 <div class="m-t-10">
+	  <div class="l"><img src="__PUBLIC__/web/images/login_1.jpg" /></div>
+		<div class="login_o_c">
+		 <input name="uname" type="text" value=""  placeholder="用户名/邮箱/手机号码" id="uname"/>
+		 <input name="pwd" type="password" value="" class="input_d" placeholder="密码" id="pwd"/>
+		 <p class="m-t-20 font-12 color_666"><input name="" type="checkbox" value="" class="input_d_d" />&nbsp;自动登录<a href="" class="m-l-22" style="color:#44b8db;">忘记密码？</a><a href="" style="margin-left:80px;">免费注册</a></p>
+		 <input name="" type="submit" value="登录" class="login_but" id="submit"/>
+		 <p class="m-t-28"><img src="__PUBLIC__/web/images/qq.jpg" /><a href="">QQ登录</a><img src="__PUBLIC__/web/images/wb.jpg" class="m-l-30"/><a href="">微博登录</a><img src="__PUBLIC__/web/images/wx.jpg" class="m-l-30" /><a href="">微信登录</a></p>
+		</div>
+	 </div>
+	 </form>
+	 <script>
+		$("document").ready(function(){
+			$("#submit").click(function(){
+				var uname=$("#uname").val();
+				var pwd=$("#pwd").val();
+				if(uname=="")
+				{
+					$("#uname").focus();
+					return false;
+				}
+				if(pwd=="")
+				{
+					$("#pwd").focus();
+					return false;
+				}
+			});
+		});
+	 </script>
+	 <div class="clear"></div>
+	 <div class="login_foot">
+	  <div class="l font-12 color_666">
+		Copyright © 2003-2010 tlgzjlb.com All Right Reserved. <br />
+唐亮工长俱乐部 版权所有 中国北京 · 为互联网事业发展助跑 网站备案：京ICP备11027147号-1
+		</div>
+		<div class="r login_foot_r"><span class="color_666 font-12">全国统一客服热线</span><br /><span class="font-20 color_ff2a00">4006248668</span></div>
+		<div class="clear"></div>
+	 </div>
+ </div>
+</body>
+</html>

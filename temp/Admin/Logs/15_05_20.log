@@ -1,0 +1,1948 @@
+[ 2015-05-20T10:58:45+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005195s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005744s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004661s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.004127s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004816s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.004373s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.006998s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005030s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.010784s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032531s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007056s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003768s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013431s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-05-20T10:58:48+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001540s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004696s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005324s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004342s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.003704s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004410s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.004356s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.005031s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004231s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.010130s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003525s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014080s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002728s ]
+
+[ 2015-05-20T11:08:16+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002877s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006097s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=100 WHERE ( `id` = 66 ) [ RunTime:0.004367s ]
+
+[ 2015-05-20T11:08:30+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001702s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004953s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005703s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004491s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.004069s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004773s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.004440s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.006461s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004507s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.010576s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031408s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003212s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000903s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015635s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2015-05-20T11:09:09+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005956s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=1 WHERE ( `id` = 2 ) [ RunTime:0.005113s ]
+
+[ 2015-05-20T11:09:19+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001761s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004916s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=100 WHERE ( `id` = 2 ) [ RunTime:0.004364s ]
+
+[ 2015-05-20T11:09:21+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.027064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027213s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005540s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=99 WHERE ( `id` = 66 ) [ RunTime:0.004201s ]
+
+[ 2015-05-20T11:09:47+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005793s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=98 WHERE ( `id` = 69 ) [ RunTime:0.003956s ]
+
+[ 2015-05-20T11:10:29+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004305s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006459s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=97 WHERE ( `id` = 68 ) [ RunTime:0.005496s ]
+
+[ 2015-05-20T11:10:32+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004899s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=96 WHERE ( `id` = 72 ) [ RunTime:0.003941s ]
+
+[ 2015-05-20T11:11:06+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004852s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=95 WHERE ( `id` = 70 ) [ RunTime:0.004207s ]
+
+[ 2015-05-20T11:11:32+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002645s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003740s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=94 WHERE ( `id` = 3 ) [ RunTime:0.003696s ]
+
+[ 2015-05-20T11:11:35+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005718s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005838s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005581s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.005324s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005632s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005805s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.006374s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005522s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.012612s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041299s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004781s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001137s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014738s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2015-05-20T11:12:22+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004873s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=93 WHERE ( `id` = 49 ) [ RunTime:0.003947s ]
+
+[ 2015-05-20T11:12:49+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006240s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.013512s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=92 WHERE ( `id` = 128 ) [ RunTime:0.005000s ]
+
+[ 2015-05-20T11:13:40+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004537s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=91 WHERE ( `id` = 115 ) [ RunTime:0.003927s ]
+
+[ 2015-05-20T11:13:48+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003562s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004180s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=90 WHERE ( `id` = 103 ) [ RunTime:0.003042s ]
+
+[ 2015-05-20T11:14:00+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005103s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=89 WHERE ( `id` = 111 ) [ RunTime:0.004105s ]
+
+[ 2015-05-20T11:14:08+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005981s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005881s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005507s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.005152s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005341s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005333s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.007658s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005671s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.013032s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075411s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006642s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015332s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2015-05-20T11:14:12+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004665s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005454s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004418s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.003936s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004464s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.004439s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.006548s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006350s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.013461s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011932s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019450s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2015-05-20T11:15:23+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005012s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=88 WHERE ( `id` = 148 ) [ RunTime:0.006251s ]
+
+[ 2015-05-20T11:15:41+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004971s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=87 WHERE ( `id` = 224 ) [ RunTime:0.004105s ]
+
+[ 2015-05-20T11:15:58+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006718s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=86 WHERE ( `id` = 215 ) [ RunTime:0.003276s ]
+
+[ 2015-05-20T11:16:06+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008006s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004632s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=85 WHERE ( `id` = 220 ) [ RunTime:0.004151s ]
+
+[ 2015-05-20T11:16:11+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004923s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=84 WHERE ( `id` = 234 ) [ RunTime:0.004845s ]
+
+[ 2015-05-20T11:16:29+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.021621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021782s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004992s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=83 WHERE ( `id` = 178 ) [ RunTime:0.004118s ]
+
+[ 2015-05-20T11:16:53+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006747s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.008231s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006121s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.006867s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006977s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.006456s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.007161s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006607s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.012024s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041013s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001141s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014355s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2015-05-20T11:18:14+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004455s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005895s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=82 WHERE ( `id` = 224 ) [ RunTime:0.005191s ]
+
+[ 2015-05-20T11:18:20+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002086s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004865s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=81 WHERE ( `id` = 83 ) [ RunTime:0.004391s ]
+
+[ 2015-05-20T11:18:23+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002996s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003510s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=80 WHERE ( `id` = 76 ) [ RunTime:0.002707s ]
+
+[ 2015-05-20T11:18:26+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001573s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005716s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=79 WHERE ( `id` = 88 ) [ RunTime:0.005194s ]
+
+[ 2015-05-20T11:18:29+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007865s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004767s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=78 WHERE ( `id` = 93 ) [ RunTime:0.004174s ]
+
+[ 2015-05-20T11:18:32+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005370s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=76 WHERE ( `id` = 73 ) [ RunTime:0.004050s ]
+
+[ 2015-05-20T11:18:35+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003590s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=75 WHERE ( `id` = 98 ) [ RunTime:0.002972s ]
+
+[ 2015-05-20T11:18:43+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004953s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=73 WHERE ( `id` = 67 ) [ RunTime:0.004073s ]
+
+[ 2015-05-20T11:18:45+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002675s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006298s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=72 WHERE ( `id` = 14 ) [ RunTime:0.009229s ]
+
+[ 2015-05-20T11:18:55+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005474s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=88 WHERE ( `id` = 228 ) [ RunTime:0.005266s ]
+
+[ 2015-05-20T11:18:59+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005407s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005661s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004588s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.004084s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004718s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005111s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.005374s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006942s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.013521s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049987s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006482s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026213s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001992s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2015-05-20T11:20:14+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005899s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=76 WHERE ( `id` = 148 ) [ RunTime:0.006995s ]
+
+[ 2015-05-20T11:20:16+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005122s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005077s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.006157s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004682s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.003493s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004632s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.004118s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.005803s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004146s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.009281s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037616s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006871s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004636s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001112s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015494s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002183s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002329s ]
+
+[ 2015-05-20T11:23:21+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004668s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=3 WHERE ( `id` = 52 ) [ RunTime:0.003041s ]
+
+[ 2015-05-20T11:23:24+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005105s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=1 WHERE ( `id` = 263 ) [ RunTime:0.004454s ]
+
+[ 2015-05-20T11:24:36+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005034s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=98 WHERE ( `id` = 274 ) [ RunTime:0.004449s ]
+
+[ 2015-05-20T11:24:45+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004955s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=97 WHERE ( `id` = 189 ) [ RunTime:0.004088s ]
+
+[ 2015-05-20T11:24:53+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006440s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=96 WHERE ( `id` = 190 ) [ RunTime:0.006317s ]
+
+[ 2015-05-20T11:25:01+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004748s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=95 WHERE ( `id` = 191 ) [ RunTime:0.004033s ]
+
+[ 2015-05-20T11:25:10+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.019837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019985s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005869s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=94 WHERE ( `id` = 192 ) [ RunTime:0.004953s ]
+
+[ 2015-05-20T11:25:19+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004860s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=93 WHERE ( `id` = 193 ) [ RunTime:0.004138s ]
+
+[ 2015-05-20T11:25:27+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003871s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004666s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=92 WHERE ( `id` = 194 ) [ RunTime:0.003944s ]
+
+[ 2015-05-20T11:25:34+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004617s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=91 WHERE ( `id` = 195 ) [ RunTime:0.003954s ]
+
+[ 2015-05-20T11:25:44+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003935s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=90 WHERE ( `id` = 249 ) [ RunTime:0.003117s ]
+
+[ 2015-05-20T11:25:54+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006078s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=89 WHERE ( `id` = 275 ) [ RunTime:0.004999s ]
+
+[ 2015-05-20T11:26:01+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005118s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=87 WHERE ( `id` = 276 ) [ RunTime:0.004248s ]
+
+[ 2015-05-20T11:26:11+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001271s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003579s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=86 WHERE ( `id` = 277 ) [ RunTime:0.003099s ]
+
+[ 2015-05-20T11:26:18+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004649s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=85 WHERE ( `id` = 262 ) [ RunTime:0.004264s ]
+
+[ 2015-05-20T11:26:26+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004958s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=84 WHERE ( `id` = 278 ) [ RunTime:0.004173s ]
+
+[ 2015-05-20T11:26:34+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001569s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018772s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005082s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=83 WHERE ( `id` = 279 ) [ RunTime:0.004495s ]
+
+[ 2015-05-20T11:26:47+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004974s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=82 WHERE ( `id` = 280 ) [ RunTime:0.005502s ]
+
+[ 2015-05-20T11:26:50+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005566s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005810s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.006437s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005491s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.005795s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005589s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.006756s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.008483s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005395s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.012164s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004112s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001437s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014709s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001800s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001950s ]
+
+[ 2015-05-20T11:27:22+08:00 ] 127.0.0.1 /tangliang/manager.php/Sheji/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005089s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.006180s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004808s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Sheji' ) LIMIT 1   [ RunTime:0.004496s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004873s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=69 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.004810s ]
+SQL: SHOW COLUMNS FROM `t_role` [ RunTime:0.005068s ]
+SQL: SELECT * FROM `t_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004467s ]
+SQL: SHOW COLUMNS FROM `t_shejiview` [ RunTime:0.005924s ]
+SQL: SELECT `a_id`,`a_name`,`truename` FROM `t_shejiview` WHERE ( 1 )  [ RunTime:0.006043s ]
+SQL: SHOW COLUMNS FROM `t_city` [ RunTime:0.004686s ]
+ERR: 1146:Table 'tangliangdbs.t_city' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_city`
+SQL: SHOW COLUMNS FROM `t_area` [ RunTime:0.004781s ]
+SQL: SELECT * FROM `t_area` WHERE ( parent_id=1 and agency_id=1 )  [ RunTime:0.004944s ]
+SQL: SELECT * FROM `t_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004647s ]
+NOTIC: [8] Undefined index:  province E:\wamp\www\tangliang\Admin\Lib\Action\ShejiAction.class.php 第 29 行.
+NOTIC: [8] Undefined index:  city E:\wamp\www\tangliang\Admin\Lib\Action\ShejiAction.class.php 第 30 行.
+NOTIC: [8] Undefined index:  keys E:\wamp\www\tangliang\Admin\Lib\Action\ShejiAction.class.php 第 35 行.
+NOTIC: [8] Undefined index:  uid E:\wamp\www\tangliang\Admin\Lib\Action\ShejiAction.class.php 第 37 行.
+SQL: SELECT `region_name` FROM `t_area` WHERE ( region_id= and agency_id=1 ) LIMIT 1   [ RunTime:0.004275s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and agency_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `region_name` FROM `t_area` WHERE ( region_id= and agency_id=1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `t_case` [ RunTime:0.006467s ]
+SQL: SHOW COLUMNS FROM `t_sheji` [ RunTime:0.006610s ]
+SQL: SHOW COLUMNS FROM `t_admin` [ RunTime:0.005005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM t_case cases LEFT JOIN t_sheji Sheji ON cases.uid=Sheji.a_id LEFT JOIN t_admin Admin ON cases.adduid=Admin.a_id WHERE ( cases.type=2  ) LIMIT 1   [ RunTime:0.004377s ]
+SQL: SELECT cases.id AS id,cases.title AS title,cases.fmimg AS fmimg,cases.is_jd AS is_jd,cases.hid AS hid,cases.fid AS fid,cases.status AS status,Sheji.truename AS truename,Admin.a_name AS adduname FROM t_case cases LEFT JOIN t_sheji Sheji ON cases.uid=Sheji.a_id LEFT JOIN t_admin Admin ON cases.adduid=Admin.a_id WHERE ( cases.type=2  ) ORDER BY cases.addtime desc LIMIT 0,10   [ RunTime:0.004556s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 79 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 135 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 135 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 135 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 135 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 135 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 135 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 156 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 156 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 163 行.
+NOTIC: [8] Use of undefined constant fmimg - assumed 'fmimg' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 208 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 208 行.
+NOTIC: [8] Undefined index:  a_id E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 209 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 209 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\tangliang\temp\Admin\Cache\b26e70903c584f61d7565ed66ed9598f.php 第 210 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050538s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000760s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000761s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002553s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002708s ]
+
+[ 2015-05-20T11:29:41+08:00 ] 127.0.0.1 /tangliang/manager.php/Gongzhang/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005444s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006585s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.007956s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004732s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Gongzhang' ) LIMIT 1   [ RunTime:0.004417s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004854s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=66 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.004755s ]
+SQL: SHOW COLUMNS FROM `t_role` [ RunTime:0.004539s ]
+SQL: SELECT * FROM `t_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004350s ]
+SQL: SHOW COLUMNS FROM `t_foremanview` [ RunTime:0.007759s ]
+SQL: SELECT `a_id`,`a_name`,`truename` FROM `t_foremanview` WHERE ( 1 )  [ RunTime:0.004279s ]
+SQL: SHOW COLUMNS FROM `t_city` [ RunTime:0.005276s ]
+ERR: 1146:Table 'tangliangdbs.t_city' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `t_city`
+SQL: SHOW COLUMNS FROM `t_area` [ RunTime:0.004725s ]
+SQL: SELECT * FROM `t_area` WHERE ( parent_id=1 and agency_id=1 )  [ RunTime:0.004960s ]
+SQL: SELECT * FROM `t_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004386s ]
+NOTIC: [8] Undefined index:  province E:\wamp\www\tangliang\Admin\Lib\Action\GongzhangAction.class.php 第 29 行.
+NOTIC: [8] Undefined index:  city E:\wamp\www\tangliang\Admin\Lib\Action\GongzhangAction.class.php 第 30 行.
+NOTIC: [8] Undefined index:  keys E:\wamp\www\tangliang\Admin\Lib\Action\GongzhangAction.class.php 第 35 行.
+NOTIC: [8] Undefined index:  uid E:\wamp\www\tangliang\Admin\Lib\Action\GongzhangAction.class.php 第 37 行.
+SQL: SELECT `region_name` FROM `t_area` WHERE ( region_id= and agency_id=1 ) LIMIT 1   [ RunTime:0.004191s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and agency_id=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `region_name` FROM `t_area` WHERE ( region_id= and agency_id=1 ) LIMIT 1  
+NOTIC: [8] Undefined index:  jieduan E:\wamp\www\tangliang\Admin\Lib\Action\GongzhangAction.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `t_shigongdt` [ RunTime:0.005305s ]
+SQL: SHOW COLUMNS FROM `t_foreman_info` [ RunTime:0.005423s ]
+SQL: SHOW COLUMNS FROM `t_admin` [ RunTime:0.005070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM t_shigongdt Shigongdt LEFT JOIN t_foreman_info ForemanInfo ON Shigongdt.uid=ForemanInfo.a_id LEFT JOIN t_admin Admin ON Shigongdt.adduid=Admin.a_id WHERE ( 1 ) LIMIT 1   [ RunTime:0.004904s ]
+SQL: SELECT Shigongdt.id AS id,Shigongdt.title AS title,Shigongdt.fmimg AS fmimg,Shigongdt.sort AS sort,Shigongdt.jieduan AS jieduan,Shigongdt.status AS status,ForemanInfo.truename AS truename,Admin.a_name AS adduname FROM t_shigongdt Shigongdt LEFT JOIN t_foreman_info ForemanInfo ON Shigongdt.uid=ForemanInfo.a_id LEFT JOIN t_admin Admin ON Shigongdt.adduid=Admin.a_id WHERE ( 1 ) ORDER BY Shigongdt.sort desc LIMIT 0,10   [ RunTime:0.004526s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 84 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 140 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 161 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 161 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant region_id - assumed 'region_id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 168 行.
+NOTIC: [8] Use of undefined constant fmimg - assumed 'fmimg' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 211 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 217 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 217 行.
+NOTIC: [8] Undefined index:  a_id E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 218 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 218 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\tangliang\temp\Admin\Cache\b19831ed65959776b0701562b1d1359a.php 第 219 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003098s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001673s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001220s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007831s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002025s ]
+
+[ 2015-05-20T11:30:00+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006223s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.006714s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005953s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.005361s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005856s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005865s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.007082s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.008090s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.014785s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045333s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005661s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004037s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012340s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2015-05-20T11:30:51+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005004s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=1 WHERE ( `id` = 261 ) [ RunTime:0.004139s ]
+
+[ 2015-05-20T11:30:53+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011048s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003742s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=2 WHERE ( `id` = 260 ) [ RunTime:0.003273s ]
+
+[ 2015-05-20T11:30:55+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008501s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006003s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=3 WHERE ( `id` = 259 ) [ RunTime:0.005517s ]
+
+[ 2015-05-20T11:31:02+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004866s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=4 WHERE ( `id` = 327 ) [ RunTime:0.004301s ]
+
+[ 2015-05-20T11:31:04+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003884s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=5 WHERE ( `id` = 328 ) [ RunTime:0.006247s ]
+
+[ 2015-05-20T11:31:06+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005815s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=6 WHERE ( `id` = 329 ) [ RunTime:0.005026s ]
+
+[ 2015-05-20T11:31:24+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003981s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=7 WHERE ( `id` = 332 ) [ RunTime:0.003165s ]
+
+[ 2015-05-20T11:31:28+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006002s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=8 WHERE ( `id` = 331 ) [ RunTime:0.005110s ]
+
+[ 2015-05-20T11:31:30+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006158s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=9 WHERE ( `id` = 330 ) [ RunTime:0.006013s ]
+
+[ 2015-05-20T11:31:33+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.011365s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=10 WHERE ( `id` = 333 ) [ RunTime:0.006080s ]
+
+[ 2015-05-20T11:31:35+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004889s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=11 WHERE ( `id` = 334 ) [ RunTime:0.015300s ]
+
+[ 2015-05-20T11:33:13+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004825s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=69 WHERE ( `id` = 317 ) [ RunTime:0.003905s ]
+
+[ 2015-05-20T11:33:21+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.006094s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=68 WHERE ( `id` = 318 ) [ RunTime:0.005192s ]
+
+[ 2015-05-20T11:33:29+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/opSort
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001522s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006968s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.003899s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php 第 95 行.
+SQL: UPDATE `t_node` SET `sort`=67 WHERE ( `id` = 319 ) [ RunTime:0.004551s ]
+
+[ 2015-05-20T11:33:49+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/nodelist.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.011971s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.007215s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005363s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.004840s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005384s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005207s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.006708s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005783s ]
+SQL: SELECT * FROM `t_node` ORDER BY sort desc  [ RunTime:0.012190s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 45 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\dbf44f2091c4ffebd2e1103c11fe3e3b.php 第 99 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031305s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003008s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001174s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012156s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2015-05-20T11:34:16+08:00 ] 127.0.0.1 /tangliang/manager.php/Access/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001547s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 18 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\Admin\Lib\Action\CommonAction.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.005117s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=1 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005205s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004853s ]
+SQL: SELECT `id` FROM `t_node` WHERE ( name='Access' ) LIMIT 1   [ RunTime:0.004441s ]
+SQL: SHOW COLUMNS FROM `t_node` [ RunTime:0.004978s ]
+SQL: SELECT * FROM `t_node` WHERE ( pid=14 and  status=1 and is_menu=1 ) ORDER BY sort desc  [ RunTime:0.005202s ]
+SQL: SHOW COLUMNS FROM `t_access` [ RunTime:0.004637s ]
+SQL: SHOW COLUMNS FROM `t_admininfoview` [ RunTime:0.006345s ]
+SQL: SELECT * FROM `t_admininfoview` ORDER BY a_id asc  [ RunTime:0.008147s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 104 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 104 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 104 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 104 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 104 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 104 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 146 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 146 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 146 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' E:\wamp\www\tangliang\temp\Admin\Cache\e4cb68fd27fba17230f88efa6a7f1013.php 第 146 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000789s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003590s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\tangliang\Admin\Lib\Action\AccessAction.class.php:1) E:\wamp\www\tangliang\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.050263s ]
+INFO: [ view_end ] --END-- [ RunTime:0.050487s ]
+
