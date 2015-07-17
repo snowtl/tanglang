@@ -1,0 +1,135 @@
+<include file="Common:p_c_head" />
+	  <!--right-->
+		<div class="master_r r">
+		  <div class="t_title"><img src="__PUBLIC__/web/images/workers.jpg" />订单管理</div>
+		  <div class="tabBox m-t-15" id="islandBox2tab">
+		<ul class="tab">
+			<li onclick="tabs('#islandBox2tab',0)" class="curr">我的全部订单</li>
+			<!--<li onclick="tabs('#islandBox2tab',1)">待转合同</li>
+			<li onclick="tabs('#islandBox2tab',2)">完成交易</li>
+			<li onclick="tabs('#islandBox2tab',3)">已退单</li>-->
+		</ul>
+		<div style="clear:both;"></div>
+		<div class="tabcon" style="display:block;">
+		 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="m-t-15 system_d gallery line-25">
+		<tr class="font-14">
+				<th>订单编号</th>
+				<th>商品价格</th>
+				<th>下单时间</th>
+				<th>订单状态</th>
+				<th>订单操作</th>
+		</tr>
+		<?php
+			if(empty($list))
+			{
+		?>
+		<tr>
+		  <td colspan="5"><span class="color_999">您还没有可用订单</span></td>
+		</tr>
+		<?php }else{?>
+		<volist name="list" id="vo" >
+		<tr>
+		    <td>{$vo.ordersn}</td>
+				<td><a href="" class="color_0d75c5">{$vo.price}</a></td>
+				<td>{$vo.addtime|date='Y-m-d h:i:s',###}</td>
+				<td>{$vo.status}</td>
+				<td><a href="{:U('Center/p_order_xq',array('id'=>$vo[id]))}" class="color_0d75c5">订单详情</a><br />
+				<if condition="$vo['status'] eq '完成'">
+					<div class="evaluation"><a href="{:U('Center/p_write_pj',array('id'=>$vo[id]))}">评价晒单</a></div>
+					<else />
+					<span class="color_0d75c5" style="color:#ccc;">等待点评</span>
+					</if>
+				</td>
+		</tr>
+		</volist>
+		<?php }?>
+		<tr>
+		  <td colspan="5"><span class="color_999">{$show}</span></td>
+		</tr>
+		
+		</table>
+		</div>
+		
+		<div class="tabcon" style="display:none;">
+		 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="m-t-15 system_d gallery line-25">
+		<tr class="font-14">
+				<th>订单编号</th>
+				<th>交易商家</th>
+				<th>下单时间</th>
+				<th>订单状态</th>
+				<th>订单操作</th>
+		</tr>
+		<tr>
+		  <td colspan="5"><span class="color_999">您还没有可用订单</span></td>
+		</tr>
+		
+		<tr>
+		    <td>21701561</td>
+				<td><a href="" class="color_0d75c5">瑞宝壁纸</a></td>
+				<td>2015-04-01<br />
+						17:47:32</td>
+				<td>待转合同</td>
+				<td><a href="" class="color_0d75c5">订单详情</a><br /><div class="evaluation"><a href="">写评论</a></div></td>
+		</tr>
+</table>
+		</div>
+		<div class="tabcon" style="display:none;">
+		 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="m-t-15 system_d gallery line-25">
+		<tr class="font-14">
+				<th>订单编号</th>
+				<th>交易商家</th>
+				<th>下单时间</th>
+				<th>订单状态</th>
+				<th>订单操作</th>
+		</tr>
+		<tr>
+		  <td colspan="5"><span class="color_999">您还没有可用订单</span></td>
+		</tr>
+		<tr>
+		    <td>21701561</td>
+				<td><a href="" class="color_0d75c5">瑞宝壁纸</a></td>
+				<td>2015-04-01<br />
+						17:47:32</td>
+				<td>交易完成</td>
+				<td><a href="" class="color_0d75c5">订单详情</a><br /><span class="color_0d75c5">已点评</span></td>
+		</tr>
+</table>
+		</div>
+		<div class="tabcon" style="display:none;">
+		 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="m-t-15 system_d gallery line-25">
+		<tr class="font-14">
+				<th>订单编号</th>
+				<th>交易商家</th>
+				<th>下单时间</th>
+				<th>订单状态</th>
+				<th>订单操作</th>
+		</tr>
+		<tr>
+		  <td colspan="5"><span class="color_999">您还没有可用订单</span></td>
+		</tr>
+		<tr>
+		    <td>21701561</td>
+				<td><a href="" class="color_0d75c5">瑞宝壁纸</a></td>
+				<td>2015-04-01<br />
+						17:47:32</td>
+				<td>已退单</td>
+				<td>订单详情</td>
+		</tr>
+</table>
+		</div>
+</div>
+      <script>
+//Tab 切换
+function tabs(tabId, tabNum){
+	$(tabId + " .tab li").removeClass("curr");
+	$(tabId + " .tab li").eq(tabNum).addClass("curr");
+	$(tabId + " .tabcon").hide();
+	$(tabId + " .tabcon").eq(tabNum).show();
+}
+
+</script>
+		</div>
+		</div>
+	<!--center结束-->
+		<!---->
+		<include file="Common:p_c_foot" />
