@@ -138,68 +138,23 @@
     </div>
 </div>
 <div class="con1">
-	<h3 class="tit"><span class="tit_s1">明星工长</span><a class="tit_s2" href="#">换一组</a></h3>	
-	<ul class="con1_ul">
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
-    	<li>
-        	<img src="__PUBLIC__/web/images/index_72.png" />
-            <P class="con1_p1"><span class="con1_p1_s1">朱美桂</span><span class="con1_p1_s2">口碑值：<i>374</i></span></P>
-            <P class="con2_p2"><a class="con1_p1_s3">评论<i>32</i></a><a class="con1_p1_s4" href="#">进入店铺</a></P>
-        </li>
+	<h3 class="tit"><span class="tit_s1">明星工长</span><a class="tit_s2" href="javascript:change_for();">换一组</a></h3>	
+        <ul class="con1_ul" id='load_foreman'>
+            <?php if(is_array($forlist)): $i = 0; $__LIST__ = $forlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
+                    <img src="<?php echo ($vo["logo"]); ?>" />
+            <P class="con1_p1"><span class="con1_p1_s1"><?php echo ($vo["truename"]); ?></span><span class="con1_p1_s2">口碑值：<i><?php echo ($vo["koubei"]); ?></i></span></P>
+            <P class="con2_p2"><a class="con1_p1_s3">评论<i><?php echo ($vo["comments"]); ?></i></a><a class="con1_p1_s4" href="<?php echo U('Foreman/index',array('id'=>$vo[a_id]));?>" target='_blank'>进入店铺</a></P>
+        </li><?php endforeach; endif; else: echo "" ;endif; ?>
     </ul>
     <h4 class="con1_h4">装修流程  <span>装修一站式服务</span></h4>
     <P class="con2_p3"><a href="#">收房验房</a><a href="#">找明星工长</a><a href="#">量房做方案</a><a href="#">签订合同</a><a href="#">采购建材家具</a><a href="#">主体拆改</a><a href="#">水电改造</a><a href="#">瓦工施工</a><a href="#">土木工程</a><a href="#">油漆工程</a><a href="#">验收/软装</a><a href="#">搬入新家</a></P>
     <div class="con1_d1">
     	<p class="con1_d1_p1">正在施工</p>
         <ul class="con1_d1_ul1">
-        	<li><a href="#"><span class="con1_d1_s1">3月4日方红兵工长丰台区新华街七里10-402号正在...</span>            <span class="con1_d1_s2">2015-03-06</span></a></li>
-            <li><a href="#"><span class="con1_d1_s1">3月4日方红兵工长丰台区新华街七里10-402号正在...</span>           <span class="con1_d1_s2">2015-03-06</span></a></li>
-            <li><a href="#"><span class="con1_d1_s1">3月4日方红兵工长丰台区新华街七里10-402号正在...</span>            <span class="con1_d1_s2">2015-03-06</span></a></li>
-            <li><a href="#"><span class="con1_d1_s1">3月4日方红兵工长丰台区新华街七里10-402号正在...</span>            <span class="con1_d1_s2">2015-03-06</span></a></li>
+            
+            <?php if(is_array($sgdtlist)): $i = 0; $__LIST__ = $sgdtlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="<?php echo ($vo["id"]); ?>"><span class="con1_d1_s1"><?php echo ($vo["riqi"]); ?> <?php echo ($vo["title"]); ?>正在...</span>           <span class="con1_d1_s2"><?php echo ($vo["nyr"]); ?></span></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+            
+        	
         </ul>
     </div>
 </div>
@@ -915,3 +870,29 @@
 
     </body>
 </html>
+<script>
+    var i=1;
+function change_for(){
+    i++;
+    $.ajax({
+        url:"<?php echo U('Index/ajax_getforeman');?>",
+        data:"click="+i,
+        dataType:"json",
+        type:"GET",
+        beforeSend:function(){
+            $("#load_foreman").html("<img src='__PUBLIC__/web/images/loading.gif' />");
+        },
+        success:function(data){
+            var foremanhtml="";
+            if(data.status==1){
+            $.each(data.list,function(k,v){
+                foremanhtml+="<li><img src='"+v.logo+"' /><P class=\"con1_p1\"><span class=\"con1_p1_s1\">"+v.truename+"</span><span class=\"con1_p1_s2\">口碑值：<i>"+v.koubei+"</i></span></P><P class=\"con2_p2\"><a class=\"con1_p1_s3\">评论<i>"+v.comments+"</i></a><a class=\"con1_p1_s4\" href=\"#\">进入店铺</a></P></li>";
+            });
+            $("#load_foreman").html(foremanhtml);
+            }else{
+                $("#load_foreman").html("");
+            }
+        }
+    })
+}
+</script>

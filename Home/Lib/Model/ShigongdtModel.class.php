@@ -21,7 +21,7 @@ class ShigongdtModel extends Model {
     public function getsgdt($cid) {
         $where = "t_shigongdt.c_id=".$cid." and t_shigongdt.status=1 and (t_shigongdt.jieduan>1 and t_shigongdt.jieduan<7)";
         
-        $arr = $this->where($where)->join("t_foreman_info as i on i.a_id=t_shigongdt.uid")->field("t_shigongdt.id,t_shigongdt.title,t_shigongdt.addtime,t_shigongdt.jieduan,i.truename")->order("t_shigongdt.addtime desc")->select();
+        $arr = $this->where($where)->join("t_foreman_info as i on i.a_id=t_shigongdt.uid")->field("t_shigongdt.id,t_shigongdt.title,t_shigongdt.addtime,t_shigongdt.jieduan,i.truename")->order("t_shigongdt.addtime desc")->limit("4")->select();
         #echo $this->getLastSql();
         $config_sg=include './Home/Conf/config.php';
         #var_dump($config_sg);
@@ -34,5 +34,17 @@ class ShigongdtModel extends Model {
         }
         return $arr;
     }
-
+    /**
+     * 获取 施工动态
+     * @param int $uid 会员id
+     * @return array $arr
+     */
+    public function getsgdtlist($uid,$num=8){
+        $arr=$this->table("t_shigongdt as s")->join("t_hxcategory as h on h.id=s.huxing")->field("s.id,h.name as hxname,s.title,s.huxing,s.mianji,s.yusuan,s.yezhu,s.jieduan,a.region_name as cname")->join("t_area as a on a.region_id=s.c_id")->where("s.uid=".$uid)->limit($num)->select();
+        $config_sg=include './Home/Conf/config.php';
+        foreach ($arr as $k=>$v){
+            $arr[$k]['shigong']=$config_sg['jieduan'][$v['jieduan']];
+        }
+        return $arr;
+    }
 }

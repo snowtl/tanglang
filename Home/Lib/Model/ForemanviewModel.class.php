@@ -34,7 +34,18 @@ class ForemanviewModel extends Model {
         }
         return $arr;
     }
-
+    /**
+     * 获取工长
+     * @param int $id 工长编号
+     * @return array 工长的详细信息
+     */
+    public function getforemaninfo($id){
+        $info=$this->where("a_id=".$id)->find();
+        return $info;
+    }
+    
+    
+    
     /**
      * 检查工长是否满足分组
      */
@@ -49,5 +60,6 @@ class ForemanviewModel extends Model {
             return FALSE;
         }
     }
+    
 
 }

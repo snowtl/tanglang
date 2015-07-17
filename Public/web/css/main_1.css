@@ -281,8 +281,8 @@
 .shop_introduced img{ width:328px; height:456px; border:1px solid #e7e7e7;}
 .shop_introduced_c{ margin-top:100px; color:#666;}
 .shop_introduced_c h3{ font-weight:normal; font-size:42px; margin-bottom:20px; color:#333;}
-.shop_introduced_o{ margin-top:30px; }
-.shop_introduced_o h3{ background:url(../images/dp_5.jpg) no-repeat bottom; font-size:22px; font-weight:normal; height:35px;}
+.shop_introduced_o{ margin-top:30px; overflow:hidden; width:100%;}
+.shop_introduced_o h3{ background:url(../images/dp_5.jpg) no-repeat left bottom; font-size:22px; font-weight:normal; height:35px;}
 .shop_introduced_o_l{float:left; width:285px; height:368px; border-bottom:1px solid #f0f0f0; margin-top:22px; text-align:center; line-height:50px; margin-left:20px;}
 .shop_introduced_o_l img{ width:285px; height:316px;}
 .shop_introduced_o_d{ width:285px; height:285px; position:relative; margin-top:22px; float:left; margin-left:20px;}

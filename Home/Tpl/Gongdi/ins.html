@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <title>{$info.truename}工长店铺_唐亮工长俱乐部</title>
+            <link rel="stylesheet" href="__PUBLIC__/web/css/main.css" type="text/css" media=" screen"/>
+            <link rel="stylesheet" href="__PUBLIC__/web/css/main_1.css" type="text/css" media=" screen"/>
+            <link href="__PUBLIC__/web/css/master.css" rel="stylesheet" type="text/css" media=" screen" />
+            <link href="__PUBLIC__/web/css/stylist.css" rel="stylesheet"  type="text/css" media=" screen" />
+            <script type="text/javascript" src="__PUBLIC__/web/js/jquery-1.8.2.min.js"></script>
+            <script type="text/javascript" src="__PUBLIC__/web/js/js.js"></script>
+    </head>
+    <body>
+        <include file="Common:head" />
+        <div class="nav">
+            <div class="nav_con">
+                <ul class="nav_ul1 nav_ul1_1">
+                    <li><a href="{:U('Index/index')}">首页</a></li>
+                    <li><a href="{:U('Foreman/list')}">明星工长</a></li>
+                    <li><a href="{:U('Group/list')}">团购活动</a></li>
+                    <li><a href="{:U('Goods/index')}">建材商城</a></li>
+                    <li><a href="{:U('Sheji/index')}">设计团队</a></li>
+                    <li><a href="{:U('Tuku/index')}">装修图库</a></li>
+                    <li><a href="{:U('Zhuangxiu/index')}">装修攻略</a></li>
+                    <li><a href="{:U('Shequ/index')}">社区团装</a></li>
+                    <li><a href="{:U('Luntan/index')}">装修论坛</a></li>
+                    <li><a href="{:U('Huimin/index')}">惠民模式</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--center-->
+        <div class="jc_coupons_nav">
+            <a href="{:U('Foreman/list')}">明星工长</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="{:U('Foreman/index',array('id'=>$id))}" class="a1">店铺首页</a>
+
+        </div>
+        <div class="designer_index"><img src="{$info.dhimg}" />
+            <div class="designer_index_o">
+                <div class="designer_index_l master_store"><img src="{$info.logo}" /></div>
+                <div class="designer_index_2 master_store_1">{$info.truename}</div>
+            </div>
+        </div>
+        <div class="jc_warp">
+            <div class="designer_index_nav">
+                <a href="{:U('Foreman/index',array('id'=>$id))}" class="a1">店铺首页</a><a href="{:U('Foreman/jieshao',array('id'=>$id))}">店铺介绍</a><a href="{:U('Case/list',array('id'=>$id))}">装修案例</a><a href="{:U('Shigongdt/list',array('id'=>$id))}">施工动态</a><a href="{:U('Riji/list',array('id'=>$id))}">装修日记</a><a href="{:U('Dianping/list',array('id'=>$id))}">口碑点评</a>
+            </div>
+            <div class="designer_index_center">
+                <div class="designer_index_center_l"><img src="{$info.logo}" />
+                    <p>已被预约<span class="color_f">{$info.yuyues}</span>次</p>
+                    <input name="" type="button" value="预约工长" />
+                </div>
+                <div class="designer_index_center_c">
+                    <h3>{$info.truename}&nbsp;&nbsp;<img src="__PUBLIC__/web/images/dp.jpg" /><img src="__PUBLIC__/web/images/dp.jpg" /><img src="__PUBLIC__/web/images/dp.jpg" /></h3>
+                    <p class="designer_p_o"><img src="__PUBLIC__/web/images/sjs_4.jpg" />400-890-8086转200376</p>
+                    &nbsp;&nbsp;&nbsp;口碑值： <span class="color_f">{$info.koubei}</span><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;评价：    <span class="color_f m-l-5">{$info.comments}</span><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工龄：    {$info.gongling}年<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;籍贯：    {$info.cname}<br />
+                    施工团队：    {$info.peoples}人<br />
+                    施工案例：    {$info.cases}<br />
+                    服务范围：    {$info.fuwu}<br />
+                    代表作品：    {$info.caseinfo}</div>
+                <div class="designer_index_center_r">
+                    <p style="padding-top:0px;"><img src="__PUBLIC__/web/images/dp_1.jpg" />支持免费量房</p>
+                    <p><img src="__PUBLIC__/web/images/dp_2.jpg" />支持满意后付款</p>
+                    <p><img src="__PUBLIC__/web/images/dp_3.jpg" />支持先行赔付</p>
+                </div>
+                <div class="designer_index_center_r m-t-15">
+                    <h3>认证信息</h3>
+                    <p><img src="__PUBLIC__/web/images/sjs_5.jpg" />本店铺已提交营业执照，通过认证</p>
+                    <p><img src="__PUBLIC__/web/images/sjs_6.jpg" />本店铺已经和本站签约合作</p>
+                    <p><img src="__PUBLIC__/web/images/dp_4.jpg" />工长已交纳装修质保金</p>
+                </div>
+            </div>
+        </div>
+        <div class="designer_index_center_z">
+            <div class="designer_index_center_z_o">
+                <div class="designer_index_center_z_o_t"><span class="l">装修案例</span><a href="{:U('Case/list',array('id'=>$id))}"><img src="__PUBLIC__/web/images/sjs_7.jpg" /></a></div>
+                <div class="border m-t-5"></div>
+                <volist id='vo' name='caselist' key='k'>
+                    <if condition='$k==1'>
+                        <div class="designer_index_center_z_d m-l-0"><img src="{$vo.fmimg}" />
+                            <p><a href="{:U('Case/ins',array('id'=>$vo[id]))}">{$vo.title}</a></p>
+                            <div class="designer_index_center_z_d_l">{$vo.hxname}&nbsp;&nbsp;&nbsp;{$vo.fgname}</div>
+                            <div class="designer_index_center_z_d_r">造价{$vo.price}万元</div>
+                        </div>
+                    </if>
+                </volist>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="master_store_c">
+            <div class="designer_index_center_z_o_t"><span class="l">施工动态</span><a href="{:U('Shigontdt/list',array('id'=>$id))}"><img src="__PUBLIC__/web/images/sjs_7.jpg" /></a></div>
+            <div class="border m-t-5"></div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class=" m-r-40">
+                <tr>
+                    <th scope="col" style="border-left:3px solid #fc4027;">城市</th>
+                    <th scope="col">地址</th>
+                    <th scope="col">户型</th>
+                    <th scope="col">面积</th>
+                    <th scope="col">预算</th>
+                    <th scope="col">业主</th>
+                    <th scope="col">施工阶段</th>
+                </tr>
+                <volist id="vo" name="sgdtlist">
+                    <tr>
+                        <td>{$vo.cname}</td>
+                        <td>{$vo.title}</td>
+                        <td>{$vo.hxname}</td>
+                        <td>{$vo.mianji}</td>
+
+                        <td class="color_f">{$vo.yusuan}</td>
+                        <td>{$vo.yezhu}</td>
+                        <td>{$vo.shigong}</td>
+                    </tr>
+                </volist>
+
+            </table>
+            <div class="clear"></div>
+        </div>
+        <div class="designer_index_center_z m-t-30">
+            <div class="designer_index_center_z_o">
+                <div class="designer_index_center_z_o_t"><span class="l">装修日记</span><a href="{:U('Riji/list',array('id'=>$id))}"><img src="__PUBLIC__/web/images/sjs_7.jpg" /></a></div>
+                <div class="border m-t-5"></div>
+                <volist id='vo' name='rjlist'>
+                    <div class="master_store_c3_l m-l-0"><img src="{$vo.fmimg}" />
+                        <p><a href="{:U('Riji/ins',array('id'=>$vo[id]))}"><b>{$vo.title}</b></a></p>
+                        <p>{$vo.jianjie}</p>
+                    </div>
+                </volist>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="jc_warp">
+            <div class="jc_mall_nav">口碑点评</div>
+            <div class="evaluationct">
+                <div class="evaluation_p designer_index_center_d">
+                    <div class="evaluation_l"> <img src="__PUBLIC__/web/images/yx.jpg" /><br />
+                        网友</div>
+                    <ul>
+                        <li> 服务&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <span>品质</span>&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <span>性价比</span>&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <img src="__PUBLIC__/web/images/hp.jpg" class="img-m" /><!--<img src="__PUBLIC__/web/images/zp.jpg" class="img-m" /><img src="__PUBLIC__/web/images/cp.jpg" class="img-m" />--> 
+                        </li>
+                        <li class="li2 li5">朱工长责任心很强这一点是最好的，我上班比较忙请假也不好天天请，有时忙的都没有时间去工地，刚开始比较担心工长们不好好的干活，现在装修完了，我的担心是多余的！</li>
+                        <li class="li3">掌柜回复：<font color="#fc4027">谢谢</font></li>
+                        <li class="li4"><a href=""><img src="__PUBLIC__/web/images/dz.jpg" /></a>660</li>
+                    </ul>
+                </div>
+                <div class="evaluation_p designer_index_center_d">
+                    <div class="evaluation_l"> <img src="__PUBLIC__/web/images/yx.jpg" /><br />
+                        网友</div>
+                    <ul>
+                        <li> 服务&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <span>品质</span>&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <span>性价比</span>&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <img src="__PUBLIC__/web/images/hp.jpg" class="img-m" /><!--<img src="__PUBLIC__/web/images/zp.jpg" class="img-m" /><img src="__PUBLIC__/web/images/cp.jpg" class="img-m" />--> 
+                        </li>
+                        <li class="li2 li5">朱工长责任心很强这一点是最好的，我上班比较忙请假也不好天天请，有时忙的都没有时间去工地，刚开始比较担心工长们不好好的干活，现在装修完了，我的担心是多余的！</li>
+                        <li class="li4"><a href=""><img src="__PUBLIC__/web/images/dz.jpg" /></a>660</li>
+                    </ul>
+                </div>
+                <div class="evaluation_p designer_index_center_d">
+                    <div class="evaluation_l"> <img src="__PUBLIC__/web/images/yx.jpg" /><br />
+                        网友</div>
+                    <ul>
+                        <li> 服务&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <span>品质</span>&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <span>性价比</span>&nbsp;<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /> <img src="__PUBLIC__/web/images/hp.jpg" class="img-m" /><!--<img src="__PUBLIC__/web/images/zp.jpg" class="img-m" /><img src="__PUBLIC__/web/images/cp.jpg" class="img-m" />--> 
+                        </li>
+                        <li class="li2 li5">朱工长责任心很强这一点是最好的，我上班比较忙请假也不好天天请，有时忙的都没有时间去工地，刚开始比较担心工长们不好好的干活，现在装修完了，我的担心是多余的！朱工长责任心很强这一点是最好的，我上班比较忙请假也不好天天请，有时忙的都没有时间去工地，刚开始比较担心工朱工长责任心很强这一点是最好的，我上班比较忙请假也不好天天请<a href="">【查看详情】</a></li>
+                        <li class="li4"><a href=""><img src="__PUBLIC__/web/images/dz.jpg" /></a>660</li>
+                    </ul>
+                </div>
+                <div class="designer_index_ckpl">共有<b>10</b>人参与评论 <a href="">查看全部评论></a></div>
+                <div class="evaluation_dd">
+                    <p>点评打分</p>
+                    <div class="evaluation_dd_t">
+                        <p>服务<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /></p>
+                        <p>品质<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /></p>
+                        <p>性价比<img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /><img src="__PUBLIC__/web/images/wjx.jpg" /></p>
+                    </div>
+                    <div style="clear:both"></div>
+                    <div class="evaluation_dd_s">
+                        <input name="" type="radio" value="" />
+                        <label>好评</label>
+                        <input name="" type="radio" value="" />
+                        <label>中评</label>
+                        <input name="" type="radio" value="" />
+                        <label>差评</label>
+                    </div>
+                    <div class="evaluation_dd_k">
+                        <p>请在下面输入评论内容（仅限200字）</p>
+                        <p>
+                            <textarea name="" cols="" rows="" class="txif"></textarea>
+                        </p>
+                        <p class="p2">
+                            <input name="" type="checkbox" value="" />
+                            <label>游客直接发表</label>
+                            <label>用户名：</label>
+                            <input name="" type="text" class="input1" />
+                            <label>密码：</label>
+                            <input name="" type="text" class="input1" />
+                            <label>验证码：</label>
+                            <input name="" type="text" class="input1" />
+                            <a href=""><img src="__PUBLIC__/web/images/yz,.jpg" /></a>还可以输入 <span>100</span>文字
+                            <input name="" type="button" class="an" value="提交" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--center--> 
+        <div class="master_warp m-t-120">
+            <div class="border_t b_service">
+                <input name="" type="text" value="您的称呼" />
+                <input name="" type="text" value="您的联系方式" />
+                <input name="" type="button" class="button" value="提交" />
+            </div>
+        </div>
+        <include file="Common:foot" />
+        <div class="yygz"><a href="">预约工长</a></div>
+    </body>
+</html>
+
+
