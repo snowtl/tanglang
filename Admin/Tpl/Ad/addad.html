@@ -91,7 +91,7 @@
 </html>
 <script>
     function getcity(proid,cityid){
-	//	 alert(proid+","+cityid);
+		 //alert(proid+","+cityid);
 //		var pid=$("#"+proid).val();
 		var pid=document.getElementById(proid).value;
 		
@@ -102,7 +102,7 @@
 			type:"POST",
 			dataType:"Json",
 			success: function(msg){
-				
+				msg=eval("("+msg+")");
 				if(msg.status==1){
 					$("#"+cityid).empty();
 					var citystr="";
@@ -116,7 +116,6 @@
 						}
 					}
 					$("#"+cityid).append(citystr);
-					
 				}
 				
 			}
