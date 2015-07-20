@@ -43,9 +43,6 @@ class ForemanviewModel extends Model {
         $info=$this->where("a_id=".$id)->find();
         return $info;
     }
-    
-    
-    
     /**
      * 检查工长是否满足分组
      */
@@ -60,6 +57,32 @@ class ForemanviewModel extends Model {
             return FALSE;
         }
     }
-    
+    /**
+     * 获取工长数目
+     */
+    public function getforemannum($where){
+        #$where = array("c_id" => $cid, "status" => 1);
+        $cou=$this->where($where)->count();
+        return $cou;
+    }
+    /**
+     * 获取工长
+     * @param string $where 搜索条件
+     * @return array 工长的数组
+     */
+    public function getforemanbywhere($where,$page=1,$epage=10){
+        $page = empty($page) ? 1 : $page;
+        $start = ($page - 1)*$epage;
+        #$where = array("c_id" => $cid, "status" => 1);
+        $arr = $this->where($where)->field("a_id,truename,logo,koubei,comments")->limit($start . "," . $epage)->order("create_time desc")->select();
+        #echo $this->getLastSql();exit;
+        foreach ($arr as $k => $v) {
+            if (file_exists("./avatar/" . $v['logo']) && !empty($v['logo']))
+                $arr[$k]['logo'] = "/avatar/" . $v['logo'];
+            else
+                $arr[$k]['logo'] = "/Public/web/images/nopic_193.jpg";
+        }
+        return $arr;
+    }
 
 }

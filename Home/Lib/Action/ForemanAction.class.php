@@ -78,5 +78,60 @@ class ForemanAction extends CommonAction {
         }
         $this->display();
     }
-
+    /**
+     * 工长列表
+     */
+    public function foremanlist(){
+        $cid=$_SESSION['cid'];
+        
+        //广告位
+        $admod=new AdModel();
+        $cid=$this->cid;
+        $adlist=$admod->getad(2, $cid);
+        $this->assign("adlist",$adlist);
+        
+        #城市
+        $Amod=new AreaModel();
+        $arealist=$Amod->getcity($cid);
+        $this->assign("arealist",$arealist);
+        import("ORG.Util.Page");
+        $M=new ForemanviewModel();
+        
+        $where="status=1 ";
+        $areaid=$_GET['areaid'];
+        if(!empty($areaid)){
+            $where.=" and q_id=".$areaid;
+        }
+        $this->assign("areaid",$areaid);
+        $where.=" and c_id=".$cid;
+        
+        $totalRows=$M->getforemannum($where);
+        $p = new Page($totalRows, 48);
+        
+        $list=$M->getforemanbywhere($where,$p->firstRow,$p->listRows);
+        $this->assign("list",$list);
+        $this->assign("page",$p->show());
+        #------------------------------列表结束
+        #设计师
+        $M1=new ShejiviewModel();
+        $sjlist=$M1->getsheji($cid);
+        $this->assign("sjlist",$sjlist);
+        
+        #施工动态
+        $M2=new ShigongdtModel();
+        $sgdtlist=$M2->getsgdtbytime();
+        #var_dump($sgdtlist);
+        $this->assign("sgdtlist",$sgdtlist);
+        
+        #经典案例
+        $M3=new CaseModel();
+        $caselist=$M3->getjdcase($cid);
+        $this->assign("caselist",$caselist);
+        #var_dump($caselist);
+        
+        $this->display();
+    }
+    
+    
+    
 }

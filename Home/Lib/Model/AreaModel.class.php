@@ -27,6 +27,15 @@ class AreaModel extends Model {
         else
             return false;
     }
-    
+    /**
+     * 获取区域
+     * @param int $cid 城市编号
+     * @return array 城市地区数组
+     */
+    public function getcity($cid){
+        $list=$this->where("parent_id=".$cid." and agency_id=1")->field("region_id as id,region_name as cityname")->select();
+        #echo $this->getLastSql();
+        return $list;
+    }
     
 }

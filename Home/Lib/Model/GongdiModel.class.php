@@ -36,4 +36,19 @@ class GongdiModel extends Model {
         $str=mb_substr($str, 0, $a-1);
         return $str;
     }
+    /**
+     * 获取工地图片和名称
+     * @param int $id 工地编号
+     * @return array $arr 施工工地
+     */
+    public function getgongdiimg($id){
+        $where="id=".$id." and status=1";
+        $list=$this->where($where)->field("gdimg,name")->find();
+        $gdimg=json_decode($list['gdimg']);
+        $arr=array(
+            "gdimg"=>$gdimg,
+            "name"=>$list['name']
+        );
+        return $arr;
+    }
 }

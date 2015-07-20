@@ -47,4 +47,14 @@ class ShigongdtModel extends Model {
         }
         return $arr;
     }
+    /**
+     * 获取施工动态
+     * @param int $num 按照时间排序的前10条
+     * @return array $arr
+     */
+    public function getsgdtbytime($num=10){
+        $arr=  $this->table("t_shigongdt as s")->field("s.id,s.title,i.truename")->join("t_foreman_info as i on i.a_id=s.uid")->where("1")->order("s.addtime desc")->limit($num)->select();
+       # echo $this->getLastSql();
+        return $arr;
+    }
 }
