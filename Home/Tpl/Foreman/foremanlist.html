@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <title>{$info.truename}明星工长_唐亮工长俱乐部</title>
+            <link rel="stylesheet" href="__PUBLIC__/web/css/main.css" type="text/css" media=" screen"/>
+            <link rel="stylesheet" href="__PUBLIC__/web/css/main_1.css" type="text/css" media=" screen"/>
+            <link href="__PUBLIC__/web/css/master.css" rel="stylesheet" type="text/css" media=" screen" />
+            <link href="__PUBLIC__/web/css/stylist.css" rel="stylesheet"  type="text/css" media=" screen" />
+            <script type="text/javascript" src="__PUBLIC__/web/js/jquery-1.8.2.min.js"></script>
+            <script type="text/javascript" src="__PUBLIC__/web/js/js.js"></script>
+    </head>
+    <body>
+        <include file="Common:head" />
+        <div class="nav">
+            <div class="nav_con">	
+                <ul class="nav_ul1">
+                    <li><a href="{:U('Index/index')}">首页</a></li>
+                    <li><a href="{:U('Foreman/foremanlist')}">明星工长</a></li>
+                    <li><a href="{:U('Group/grouplist')}">团购活动</a></li>
+                    <li><a href="{:U('Goods/index')}">建材商城</a></li>
+                    <li><a href="{:U('Sheji/index')}">设计团队</a></li>
+                    <li><a href="{:U('Tuku/index')}">装修图库</a></li>
+                    <li><a href="{:U('Zhuangxiu/index')}">装修攻略</a></li>
+                    <li><a href="{:U('Shequ/index')}">社区团装</a></li>
+                    <li><a href="{:U('Luntan/index')}">装修论坛</a></li>
+                    <li><a href="{:U('Huimin/index')}">惠民模式</a></li>
+                </ul>
+                <ul class="nav_ul2">
+                    <span class="nav_ul2_span1">家居一站式服务</span>
+                </ul>
+            </div>
+        </div>
+
+        <!--center-->
+        <div class="new_banner">
+            <ul class="rslides f426x240">
+                <volist id="vo" name="adlist">
+                <li><a href="{$vo.link}"><img src="{$vo.img}" /></a></li>
+                </volist>
+            </ul>
+        </div>
+        <div class="mx_con">
+            <div class="mx_con_l">
+                <div class="choice">
+                    <p class="choice1">区域</p>
+                    <P class="choice2"><a <if condition='empty($areaid)'>class="choice_cur"</if> href="{:U('Foreman/foremanlist')}">全部</a>
+                        <volist id="vo" name="arealist">
+                            <a href="{:U('Foreman/foremanlist')}?areaid={$vo.id}" <if condition='$areaid==$vo[id]'>class="choice_cur"</if> >{$vo.cityname}</a>
+                        </volist>
+                    </P>
+                    <P class="choice3"><a href="#">地图找工长</a></P>
+                </div>
+                <ul class="mx_con_l_ul">
+                    <volist id="vo" name="list">
+                    <li>
+                        <img src="{$vo.logo}" />
+                        <P class="con1_p1"><span class="con1_p1_s1">{$vo.truename}</span><span class="con1_p1_s2">口碑值：<i>{$vo.koubei}</i></span></P>
+                        <P class="con2_p2"><a class="con1_p1_s3">评论<i>{$vo.comments}</i></a><a class="con1_p1_s4" href="{:U('Foreman/index')}?id={$vo.a_id}">进入店铺</a></P>
+                    </li>
+                    </volist>
+                </ul>
+
+                <ul class="yema">
+                    <!--<li class="top"><a href="#">上一页</a></li>
+                    <li class=" ym_cur"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li class="nob">......</li>
+                    <li class="down"><a href="#">下一页</a></li>-->
+                    {$page}
+                </ul>
+
+            </div>
+
+
+
+            <div class="mx_con_r">
+                <P class="mx_con_r_p1"><img src="__PUBLIC__/web/images/mx_03.png" /></P>
+                <P class="mx_con_r_p2"><img src="__PUBLIC__/web/images/mx_11.png" /></P>
+                <div class="mx_con_r_d1">
+                    <P class="mx_con_r_d1_p1">工长信念 成就自我 幸福一家</P>
+                    <P class="mx_con_r_d1_p2">唐亮工长俱乐部，行业第一品牌，全国近千名工长任意挑选，免费量房无分包提点，装修节省30%费用；辅料统一配送，保障工程品质。</P>
+                    <P class="mx_con_r_d1_p3"><input type="submit" value="工长申请加入" /></P>
+                </div>
+                <div class="mx_con_r_d2">
+                    <h3 class="mx_con_r_h3"><span>设计师</span></h3>
+                    <ul class="mx_con_r_d2_ul">
+                        <volist id="vo" name="sjlist">
+                        <li>
+                            <img src="{$vo.logo}" />
+                            <P class="mx_con_r_d2_ul_p1">{$vo.truename}<span>案例{$vo.casenum}</span></P>
+                            <P class="mx_con_r_d2_ul_p2"><input type="button" onclick="ty({$vo.a_id})" value="预约" /></P>
+                        </li>
+                        </volist>
+                    </ul>
+                </div>
+                <div class="mx_con_r_d2">
+                    <h3 class="mx_con_r_h3"><span>施工动态</span></h3>
+                    <P class="addr"><span>工长</span><span>地址</span></P>
+                    <ul class="mx_con_r_d2_ul1">
+                        <volist id="vo" name="sgdtlist">
+                        <li><a href="{$vo.id}"><span class="mx_con_r_d2_ul1_s1">{$vo.truename}</span><span class="mx_con_r_d2_ul1_s2">{$vo.title}</span></a></li> 
+                        </volist>
+
+                    </ul>
+                </div>
+                <div class="mx_con_r_d2">
+                    <h3 class="mx_con_r_h3"><span>经典案例</span></h3>
+                    <ul class="mx_con_r_d2_ul2">
+                        <volist id="vo" name="caselist">
+                        <li><a href="#">
+                                <img src="{$vo.fmimg}" />
+                                <P class="mx_con_r_d2_ul2_p1">{$vo.title}</P>
+                                <P class="mx_con_r_d2_ul2_p2">{$vo.fgname} {$vo.hxname}</P>
+                            </a></li>
+                        </volist>
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <!--center--> 
+        <div class="master_warp m-t-120">
+            <div class="border_t b_service">
+                <input name="" type="text" value="您的称呼" />
+                <input name="" type="text" value="您的联系方式" />
+                <input name="" type="button" class="button" value="提交" />
+            </div>
+        </div>
+        <include file="Common:foot" />
+        <div class="fixed1 zan">
+            <div class="yd">
+                <img class="yc" src="__PUBLIC__/web/images/qq_06.png" />
+                <div class="xs">
+                    <img src="__PUBLIC__/web/images/fix_03.png" />	
+                    <div class="xs_con">
+                        <P class="xs_p1">马上预约，让工长为您服务</P>
+                        <P class="xs_p2">*免费量房   *免费预算   *免费设计   *全程监管</P> 
+                        <P class="xs_p3"><input type="text" value="请输入您的姓名" /></P>
+                        <P class="xs_p3"><input type="text" value="请输入您的手机号码" /></P>
+                        <P class="xs_p4"><select><option selected="selected">北京</option></select> <select><option selected="selected">北京</option></select> <select><option selected="selected">东城区</option></select></P>
+                        <P class="xs_p5"><input type="submit" value="免费预约" /></P>
+                        <P class="xs_p6"><span>已有预约<i>106</i>人</span><span>今日预约<i>36</i>人</span><span>累计签单<i>1568</i>单</span><span>最新开工<i>325</i>家</span></P>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+
